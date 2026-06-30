@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+osm_*.csv
+!osm_input_sample.csv
+.DS_Store
