@@ -37,6 +37,12 @@ Toronto,Canada,amenity=restaurant
 
 ## Usage
 
+Install the optional certificate helper dependency:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
 Run with the sample input:
 
 ```bash
@@ -117,3 +123,7 @@ python3 -m json.tool osm_common_query_tags.json
 - Nominatim and Overpass are public services. Keep requests respectful and avoid very large bulk scraping.
 - The script waits between requests to reduce pressure on OSM services.
 - If your local Python certificates are broken, you can run with `--no-verify-ssl`, but fixing local certificates is safer.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE`.
